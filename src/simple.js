@@ -9,6 +9,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const _PRESETS = [
   {
+    axiom: 'A',
+    rules: [
+      ['F', 'FF'],
+      ['A', 'F[+AF-[A]--A][---A]'],
+    ]
+  },
+  {
     axiom: 'X',
     rules: [
       ['F', 'FF'],
